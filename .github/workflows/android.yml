@@ -21,7 +21,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-              - name: Set up Android SDK
+      - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
       - name: Install Android SDK packages
@@ -40,4 +40,4 @@ jobs:
         with:
           name: Kalimba-MIDI-Trainer
           path: app/build/outputs/apk/debug/app-debug.apk
-          
+  
